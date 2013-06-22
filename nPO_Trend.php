@@ -53,40 +53,6 @@ foreach ($Trend_Array as $key => $value) {
 
 }
 
-/*
-*->Ancienne Version avec plusieurs Template pour .chr.xml:
-*->Header, Tag_List, Footer
-*/
-
-/*foreach ($Trend_Array as $key => $value) {
-
-	$name=array();
-	$path_data_name_xml = 'render/'.$key.'.chr.xml';
-	$path_data_name_chr = 'render/'.$key.'.chr';
-	$path_data_name_rcc = 'render/'.$key.'.chr.rcc';
-
-	$name["Trend_Name"]=$key;
-
-	$chr_file = $m->render($chr, $name);
-
-	file_put_contents($path_data_name_chr, $chr_file);
-	file_put_contents($path_data_name_rcc, $rcc);	
-
-	$data = $m->render($Tpl_Trend_Header, $name);
-
-	file_put_contents($path_data_name_xml, $data,FILE_APPEND);
-
-	$para = [
-		"data" => $value
-	];
-
-	$Trend_TagList = $m->render($Tpl_Trend_TagList, $para);
-
-	file_put_contents($path_data_name_xml, $Trend_TagList,FILE_APPEND);	
-	file_put_contents($path_data_name_xml, $Tpl_Trend_footer,FILE_APPEND);
-
-}*/
-
 
 /*
 *->Fonction permettant de retourner un tableau charger avec les valeur du fichier CSV passer en Argument,
