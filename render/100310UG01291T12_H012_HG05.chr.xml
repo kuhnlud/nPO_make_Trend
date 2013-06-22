@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Chart Title="100310UG01291T12_H012_HG05">
+    <DataSource/>
+    <TagList>
+        <Tag Name="100310UG01291T12_H012HG05_TM01XI01">
+            <Style Color="#FF0000"/>
+            <Scale DefaultLimits="False" HighLimit="70" LowLimit="20"  Unit="">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+        <Tag Name="100310UG01291T12_H012HG05_TM02XI01">
+            <Style Color="#0000FF"/>
+            <Scale DefaultLimits="False" HighLimit="70" LowLimit="20"  Unit="">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+        <Tag Name="100310UG01291T12_H012HG05_PU01RM01">
+            <Style Color="#00FF00" Type="Bar"/>
+            <Scale DefaultLimits="False" HighLimit="2" LowLimit="-1">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+    </TagList>
+    <TimeScale>
+        <DateTime Time="00:00:00"/>
+        <Period Days="1" Time="00:00:00"/>
+    </TimeScale>
+    <XAxis/>
+    <Window RealTime="False">
+        <Background/>
+        <Grid/>
+        <ToolBar/>
+        <ScrollBar/>
+        <MenuBar/>
+        <DataBox Visible="True"/>
+        <Period Days="1" Time="00:00:00"/>
+    </Window>
+</Chart>

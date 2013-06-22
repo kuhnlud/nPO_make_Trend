@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Chart Title="{{Trend_Name}}">
+    <DataSource/>
+    <TagList>
+	{{#data}}
+        <Tag Name="{{Tag_Name}}">
+            <Style Color="{{Tag_Color}}"{{#Tag_Type}} Type="{{Tag_Type}}"{{/Tag_Type}}/>
+            <Scale DefaultLimits="False" HighLimit="{{Tag_HighLimit}}" LowLimit="{{Tag_LowLimit}}"{{#Tag_Unit}}  Unit="{{Tag_Unit}}"{{/Tag_Unit}}>
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+	{{/data}}
+    </TagList>
+    <TimeScale>
+        <DateTime Time="00:00:00"/>
+        <Period Days="1" Time="00:00:00"/>
+    </TimeScale>
+    <XAxis/>
+    <Window RealTime="False">
+        <Background/>
+        <Grid/>
+        <ToolBar/>
+        <ScrollBar/>
+        <MenuBar/>
+        <DataBox Visible="True"/>
+        <Period Days="1" Time="00:00:00"/>
+    </Window>
+</Chart>

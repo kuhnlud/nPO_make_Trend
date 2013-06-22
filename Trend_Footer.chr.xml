@@ -1,0 +1,16 @@
+    </TagList>
+    <TimeScale>
+        <DateTime Time="00:00:00"/>
+        <Period Days="1" Time="00:00:00"/>
+    </TimeScale>
+    <XAxis/>
+    <Window RealTime="False">
+        <Background/>
+        <Grid/>
+        <ToolBar/>
+        <ScrollBar/>
+        <MenuBar/>
+        <DataBox Visible="True"/>
+        <Period Days="1" Time="00:00:00"/>
+    </Window>
+</Chart>

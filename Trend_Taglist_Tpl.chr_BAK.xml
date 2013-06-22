@@ -1,0 +1,10 @@
+        <Tag Name="{{Tag_Name}}">
+            <Style Color="{{Tag_Color}}" {{#Tag_Type}}Type="Bar"{{/Tag_Type}}/>
+            <Scale DefaultLimits="False" HighLimit="{{Tag_HighLimit}}" LowLimit="{{Tag_LowLimit}}" Unit="{{Tag_Unit}}">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>

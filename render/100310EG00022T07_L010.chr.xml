@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Chart Title="100310EG00022T07_L010">
+    <DataSource/>
+    <TagList>
+        <Tag Name="100310EG00022T07_L010LE00_TM01XI01">
+            <Style Color="#FF9900"/>
+            <Scale DefaultLimits="False" HighLimit="55" LowLimit="5"  Unit="">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+        <Tag Name="100310EG00022T07_L010ZU00_TM01XI01">
+            <Style Color="#FF0000"/>
+            <Scale DefaultLimits="False" HighLimit="40" LowLimit="10"  Unit="">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+        <Tag Name="100310EG00022T07_L010ZU01_TM01XI01">
+            <Style Color="#FFCC00"/>
+            <Scale DefaultLimits="False" HighLimit="40" LowLimit="10"  Unit="">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+        <Tag Name="100310EG00022T07_L010LE00_RV01YB01">
+            <Style Color="#000000" Type="Bar"/>
+            <Scale DefaultLimits="False" HighLimit="110" LowLimit="-10"  Unit="%">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+        <Tag Name="100310EG00022T07_L010ZU01_RV01YB01">
+            <Style Color="#808080" Type="Bar"/>
+            <Scale DefaultLimits="False" HighLimit="115" LowLimit="-15"  Unit="%">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+        <Tag Name="100310EG00022T07_L010ZU00_TM01XC01">
+            <Style Color="#FF6600"/>
+            <Scale DefaultLimits="False" HighLimit="40" LowLimit="10"  Unit="">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+        <Tag Name="100310EG00022T07_L010LE00_PU01RM01">
+            <Style Color="#00FF00" Type="Bar"/>
+            <Scale DefaultLimits="False" HighLimit="2" LowLimit="-1">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+        <Tag Name="100310EG00022T07_L010ZU00_VE01RM01">
+            <Style Color="#33CCCC" Type="Bar"/>
+            <Scale DefaultLimits="False" HighLimit="3" LowLimit="-2">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+        <Tag Name="100310EG00022T07_L010ZU00_VE01RM02">
+            <Style Color="#008080" Type="Bar"/>
+            <Scale DefaultLimits="False" HighLimit="4" LowLimit="-3">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+        <Tag Name="100310EG00022T07_L010FO01_VE01RM01">
+            <Style Color="#FFCC99" Type="Bar"/>
+            <Scale DefaultLimits="False" HighLimit="5" LowLimit="-4">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+        <Tag Name="100310EG00022T07_L010FO01_VE01RM02">
+            <Style Color="#FFFF99" Type="Bar"/>
+            <Scale DefaultLimits="False" HighLimit="6" LowLimit="-5">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+        <Tag Name="100310EG00022T07_L010FO02_VE01RM01">
+            <Style Color="#CC99FF" Type="Bar"/>
+            <Scale DefaultLimits="False" HighLimit="7" LowLimit="-6">
+                <Label Type="Description"/>
+            </Scale>
+            <LowMark/>
+            <HighMark/>
+            <MinMax/>
+            <Average/>
+        </Tag>
+    </TagList>
+    <TimeScale>
+        <DateTime Time="00:00:00"/>
+        <Period Days="1" Time="00:00:00"/>
+    </TimeScale>
+    <XAxis/>
+    <Window RealTime="False">
+        <Background/>
+        <Grid/>
+        <ToolBar/>
+        <ScrollBar/>
+        <MenuBar/>
+        <DataBox Visible="True"/>
+        <Period Days="1" Time="00:00:00"/>
+    </Window>
+</Chart>
