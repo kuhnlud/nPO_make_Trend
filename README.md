@@ -12,8 +12,10 @@ A quick example:
 In an CMD or ConEmu file Open in This Skript location:
 
 Type:
-
+```php
 -> php nPO_Trend.php
+
+```php
 
 That's all!
 
