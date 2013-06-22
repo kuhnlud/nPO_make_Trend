@@ -4,7 +4,7 @@
     <TagList>
         <Tag Name="100310EG00070T08_L012LE00_TM01XI01">
             <Style Color="#FF9900"/>
-            <Scale DefaultLimits="False" HighLimit="55" LowLimit="5"  Unit="">
+            <Scale DefaultLimits="False" HighLimit="55" LowLimit="5" Unit="°C">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>
@@ -14,7 +14,7 @@
         </Tag>
         <Tag Name="100310EG00070T08_L012ZU00_TM01XI01">
             <Style Color="#FF0000"/>
-            <Scale DefaultLimits="False" HighLimit="40" LowLimit="10"  Unit="">
+            <Scale DefaultLimits="False" HighLimit="40" LowLimit="10" Unit="°C">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>
@@ -24,7 +24,7 @@
         </Tag>
         <Tag Name="100310EG00070T08_L012ZU01_TM01XI01">
             <Style Color="#FFCC00"/>
-            <Scale DefaultLimits="False" HighLimit="40" LowLimit="10"  Unit="">
+            <Scale DefaultLimits="False" HighLimit="40" LowLimit="10" Unit="°C">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>
@@ -34,7 +34,7 @@
         </Tag>
         <Tag Name="100310EG00070T08_L012LE00_RV01YB01">
             <Style Color="#000000" Type="Bar"/>
-            <Scale DefaultLimits="False" HighLimit="110" LowLimit="-10"  Unit="%">
+            <Scale DefaultLimits="False" HighLimit="110" LowLimit="-10" Unit="%">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>
@@ -44,7 +44,7 @@
         </Tag>
         <Tag Name="100310EG00070T08_L012ZU01_RV01YB01">
             <Style Color="#808080" Type="Bar"/>
-            <Scale DefaultLimits="False" HighLimit="115" LowLimit="-15"  Unit="%">
+            <Scale DefaultLimits="False" HighLimit="115" LowLimit="-15" Unit="%">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>

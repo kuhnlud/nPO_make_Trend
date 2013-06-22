@@ -4,7 +4,6 @@ require '/mustache.php-master/src/Mustache/Autoloader.php';
 Mustache_Autoloader::register();
 $m = new Mustache_Engine;
 
-
 define('Tpl_Trend', 'Trend_Tpl.ch.xml');
 
 
@@ -22,10 +21,6 @@ $Data_UBS = csv_to_array(Trends_Para);
 $Trend_Array = anordered_Trend_Format($Data_UBS);
 
 foreach ($Trend_Array as $key => $value) {
-/*	if(isset($value[0]["Tag_Unit"])){
-		echo utf8_decode($value[0]["Tag_Unit"]);
-	}*/
-	//print_r($value);
 	$name=array();
 	$path_data_name_xml = 'render/'.$key.'.chr.xml';
 	$path_data_name_chr = 'render/'.$key.'.chr';
@@ -41,10 +36,7 @@ foreach ($Trend_Array as $key => $value) {
 
 	$para = [
 		"Trend_Name" => $key,
-		"data" => $value,
-/*		"utf8_dec" => function($t){
-			return $t;
-		}*/
+		"data" => $value
 	];	
 
 	$data = $m->render($Tpl_Trend, $para);
@@ -98,6 +90,10 @@ function anordered_Trend_Format($trend){
 	$other = array();
 
 	foreach ($trend as $key => $value) {
+		
+		/*For utf8 Escape on '°C'*/
+		$value["Tag_Unit"] = utf8_encode($value["Tag_Unit"]);
+		/*-----------------------*/
 
 		if (!in_array($value["Trend_Name"],$reformat )) {
 			$trend_formated[$value["Trend_Name"]] = array();

@@ -4,7 +4,7 @@
     <TagList>
         <Tag Name="100310UG01291T12_S002WW02_TM01XI01">
             <Style Color="#C0C0C0"/>
-            <Scale DefaultLimits="False" HighLimit="125" LowLimit="25"  Unit="">
+            <Scale DefaultLimits="False" HighLimit="125" LowLimit="25" Unit="°C">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>
@@ -14,7 +14,7 @@
         </Tag>
         <Tag Name="100310UG01291T12_S002WW02_TM02XI01">
             <Style Color="#808080"/>
-            <Scale DefaultLimits="False" HighLimit="120" LowLimit="20"  Unit="">
+            <Scale DefaultLimits="False" HighLimit="120" LowLimit="20" Unit="°C">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>
@@ -24,7 +24,7 @@
         </Tag>
         <Tag Name="100310UG01291T12_S002WW03_TM01XI01">
             <Style Color="#800080"/>
-            <Scale DefaultLimits="False" HighLimit="115" LowLimit="15"  Unit="">
+            <Scale DefaultLimits="False" HighLimit="115" LowLimit="15" Unit="°C">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>
@@ -34,7 +34,7 @@
         </Tag>
         <Tag Name="100310UG01291T12_S002WW03_TM02XI01">
             <Style Color="#008000"/>
-            <Scale DefaultLimits="False" HighLimit="110" LowLimit="10"  Unit="">
+            <Scale DefaultLimits="False" HighLimit="110" LowLimit="10" Unit="°C">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>
@@ -44,7 +44,7 @@
         </Tag>
         <Tag Name="100310UG01291T12_S002WW02_TM01XC01">
             <Style Color="#FF6600"/>
-            <Scale DefaultLimits="False" HighLimit="105" LowLimit="5"  Unit="">
+            <Scale DefaultLimits="False" HighLimit="105" LowLimit="5" Unit="°C">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>
@@ -54,7 +54,7 @@
         </Tag>
         <Tag Name="100310UG01291T12_S002WW03_TM01XC01">
             <Style Color="#969696"/>
-            <Scale DefaultLimits="False" HighLimit="100" LowLimit="0"  Unit="">
+            <Scale DefaultLimits="False" HighLimit="100" LowLimit="0" Unit="°C">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>

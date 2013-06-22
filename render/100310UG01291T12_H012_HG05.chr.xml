@@ -4,7 +4,7 @@
     <TagList>
         <Tag Name="100310UG01291T12_H012HG05_TM01XI01">
             <Style Color="#FF0000"/>
-            <Scale DefaultLimits="False" HighLimit="70" LowLimit="20"  Unit="">
+            <Scale DefaultLimits="False" HighLimit="70" LowLimit="20" Unit="°C">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>
@@ -14,7 +14,7 @@
         </Tag>
         <Tag Name="100310UG01291T12_H012HG05_TM02XI01">
             <Style Color="#0000FF"/>
-            <Scale DefaultLimits="False" HighLimit="70" LowLimit="20"  Unit="">
+            <Scale DefaultLimits="False" HighLimit="70" LowLimit="20" Unit="°C">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>

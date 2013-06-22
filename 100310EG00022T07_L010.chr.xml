@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Chart Title="100310UG01291T12_H012_HG03">
+<Chart Title="100310EG00022T07_L010">
     <DataSource/>
     <TagList>
-        <Tag Name="100310UG01291T12_H012HG03_TM01XI01">
-            <Style Color="#FF0000"/>
-            <Scale DefaultLimits="False" HighLimit="70" LowLimit="20" Unit="°C">
+        <Tag Name="100310EG00022T07_L010LE00_TM01XI01">
+            <Style Color="#FF9900"/>
+            <Scale DefaultLimits="False" HighLimit="55.0" LowLimit="5.0" Unit="°C">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>
@@ -12,9 +12,9 @@
             <MinMax/>
             <Average/>
         </Tag>
-        <Tag Name="100310UG01291T12_H012HG03_RV01YB01">
-            <Style Color="#000000" Type="Bar"/>
-            <Scale DefaultLimits="False" HighLimit="110" LowLimit="-10" Unit="%">
+        <Tag Name="100310EG00022T07_L010LE00_RV01YB01">
+            <Style Type="Bar"/>
+            <Scale DefaultLimits="False" HighLimit="110.0" LowLimit="-10.0" Unit="%">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>
@@ -22,19 +22,9 @@
             <MinMax/>
             <Average/>
         </Tag>
-        <Tag Name="100310UG01291T12_H012HG03_TM01XC01">
-            <Style Color="#FF6600"/>
-            <Scale DefaultLimits="False" HighLimit="70" LowLimit="20" Unit="°C">
-                <Label Type="Description"/>
-            </Scale>
-            <LowMark/>
-            <HighMark/>
-            <MinMax/>
-            <Average/>
-        </Tag>
-        <Tag Name="100310UG01291T12_H012HG03_PU01RM01">
-            <Style Color="#00FF00" Type="Bar"/>
-            <Scale DefaultLimits="False" HighLimit="2" LowLimit="-1">
+        <Tag Name="100310EG00022T07_L010FO02_VE01RM01">
+            <Style Color="#CC99FF" Type="Bar"/>
+            <Scale DefaultLimits="False" HighLimit="7.0" LowLimit="-6.0">
                 <Label Type="Description"/>
             </Scale>
             <LowMark/>
