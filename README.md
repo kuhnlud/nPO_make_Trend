@@ -15,7 +15,7 @@ Type:
 ```php
 -> php nPO_Trend.php
 
-```php
+```
 
 That's all!
 
